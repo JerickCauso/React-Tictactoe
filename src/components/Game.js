@@ -50,7 +50,7 @@ const Game = () => {
         className="reset-btn"
         onClick={() => setBoard(Array(9).fill(null))}
       >
-        Start Game
+        Start / Reset
       </button>
     );
   };
